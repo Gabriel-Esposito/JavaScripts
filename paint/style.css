@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+main {
+    margin: auto;
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+.barra-de-cores {
+    width: 17.92em;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.barra-de-cores > .linha {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.barra-de-cores > .linha > p {
+    border: 1px solid black;
+    width: 1em;
+    height: 1em;
+    margin: 0em 0.1em;
+}
+
+.quadro {
+    display: flex;
+    width: 17.92em;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.pixel {
+    width: 1.12em;
+    height: 1.12em;
+}
+
+.cor-personalizada {
+    margin: auto;
+    margin-top: 2rem;
+}
+.rgb{
+    text-align: center;
+}
+.rgb > input {
+    width: 3em;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 4px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(5, 175, 5);
+    color: white;
+}
+.cor-atual {
+    min-width: 7em;
+    position: fixed;
+    top: 24%;
+    right: 24%;
+}
+#atual {
+    margin: 0.5em 0rem 0.5em 0.5em;
+    border: 1px solid black;
+    border-radius: 4px;
+    max-width: 4em;
+    min-height: 4em;
+}
+
+.apagar {
+    width: 39.8%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+#apagar-btn {
+    background-color: rgb(199, 7, 7);
+    color: white;
+}
+
+footer {
+    background-color: #0c1524;
+    color: white;
+    padding: 10px;
+    width: 97.3vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+footer > a{
+    color: #03A9F4;
+}
+@media only screen and (max-width:750px){
+    .cor-atual{
+        right: 10%;
+    }
+}
+@media only screen and (max-width:450px){
+    .cor-atual{
+        position: relative;
+        top: 0;
+        left: 40%;
+    }
+    #atual {
+        margin: 0;
+    }
+}

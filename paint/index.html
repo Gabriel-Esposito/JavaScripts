@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cores.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="barra-de-cores">
+            <div class="linha">
+                <p id="white" onclick="EscolherCor(0)"></p>
+                <p id="black" onclick="EscolherCor(1)"></p>
+                <p id="red" onclick="EscolherCor(2)"></p>
+                <p id="blue" onclick="EscolherCor(3)"></p>
+                <p id="green" onclick="EscolherCor(4)"></p>
+                <p id="yellow" onclick="EscolherCor(5)"></p>
+                <p id="orange" onclick="EscolherCor(6)"></p>
+                <p id="purple" onclick="EscolherCor(7)"></p>
+                <p id="brown" onclick="EscolherCor(8)"></p>
+                <p id="gray" onclick="EscolherCor(9)"></p>
+                <p id="light-gray" onclick="EscolherCor(10)"></p>
+                <p id="dark-gray" onclick="EscolherCor(11)"></p>
+                <p id="dark-red" onclick="EscolherCor(12)"></p>
+            </div>
+            <div class="linha">
+                <p id="light-blue" onclick="EscolherCor(13)"></p>
+                <p id="dark-blue" onclick="EscolherCor(14)"></p>
+                <p id="pink" onclick="EscolherCor(15)"></p>
+                <p id="light-red" onclick="EscolherCor(16)"></p>
+                <p id="dark-orange" onclick="EscolherCor(17)"></p>
+                <p id="aqua" onclick="EscolherCor(18)"></p>
+                <p id="light-green" onclick="EscolherCor(19)"></p>
+                <p id="dark-green" onclick="EscolherCor(20)"></p>
+                <p id="burlywood" onclick="EscolherCor(21)"></p>
+                <p id="cyan" onclick="EscolherCor(22)"></p>
+                <p id="light-orange" onclick="EscolherCor(23)"></p>
+                <p id="dark-cyan" onclick="EscolherCor(24)"></p>
+                <p id="beige" onclick="EscolherCor(25)"></p>
+            </div>
+        </div>
+        <div class="quadro">
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(0)"></p>
+                <p class="pixel" onclick="Colorir(1)"></p>
+                <p class="pixel" onclick="Colorir(2)"></p>
+                <p class="pixel" onclick="Colorir(3)"></p>
+                <p class="pixel" onclick="Colorir(4)"></p>
+                <p class="pixel" onclick="Colorir(5)"></p>
+                <p class="pixel" onclick="Colorir(6)"></p>
+                <p class="pixel" onclick="Colorir(7)"></p>
+                <p class="pixel" onclick="Colorir(8)"></p>
+                <p class="pixel" onclick="Colorir(9)"></p>
+                <p class="pixel" onclick="Colorir(10)"></p>
+                <p class="pixel" onclick="Colorir(11)"></p>
+                <p class="pixel" onclick="Colorir(12)"></p>
+                <p class="pixel" onclick="Colorir(13)"></p>
+                <p class="pixel" onclick="Colorir(14)"></p>
+                <p class="pixel" onclick="Colorir(15)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(16)"></p>
+                <p class="pixel" onclick="Colorir(17)"></p>
+                <p class="pixel" onclick="Colorir(18)"></p>
+                <p class="pixel" onclick="Colorir(19)"></p>
+                <p class="pixel" onclick="Colorir(20)"></p>
+                <p class="pixel" onclick="Colorir(21)"></p>
+                <p class="pixel" onclick="Colorir(22)"></p>
+                <p class="pixel" onclick="Colorir(23)"></p>
+                <p class="pixel" onclick="Colorir(24)"></p>
+                <p class="pixel" onclick="Colorir(25)"></p>
+                <p class="pixel" onclick="Colorir(26)"></p>
+                <p class="pixel" onclick="Colorir(27)"></p>
+                <p class="pixel" onclick="Colorir(28)"></p>
+                <p class="pixel" onclick="Colorir(29)"></p>
+                <p class="pixel" onclick="Colorir(30)"></p>
+                <p class="pixel" onclick="Colorir(31)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(32)"></p>
+                <p class="pixel" onclick="Colorir(33)"></p>
+                <p class="pixel" onclick="Colorir(34)"></p>
+                <p class="pixel" onclick="Colorir(35)"></p>
+                <p class="pixel" onclick="Colorir(36)"></p>
+                <p class="pixel" onclick="Colorir(37)"></p>
+                <p class="pixel" onclick="Colorir(38)"></p>
+                <p class="pixel" onclick="Colorir(39)"></p>
+                <p class="pixel" onclick="Colorir(40)"></p>
+                <p class="pixel" onclick="Colorir(41)"></p>
+                <p class="pixel" onclick="Colorir(42)"></p>
+                <p class="pixel" onclick="Colorir(43)"></p>
+                <p class="pixel" onclick="Colorir(44)"></p>
+                <p class="pixel" onclick="Colorir(45)"></p>
+                <p class="pixel" onclick="Colorir(46)"></p>
+                <p class="pixel" onclick="Colorir(47)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(48)"></p>
+                <p class="pixel" onclick="Colorir(49)"></p>
+                <p class="pixel" onclick="Colorir(50)"></p>
+                <p class="pixel" onclick="Colorir(51)"></p>
+                <p class="pixel" onclick="Colorir(52)"></p>
+                <p class="pixel" onclick="Colorir(53)"></p>
+                <p class="pixel" onclick="Colorir(54)"></p>
+                <p class="pixel" onclick="Colorir(55)"></p>
+                <p class="pixel" onclick="Colorir(56)"></p>
+                <p class="pixel" onclick="Colorir(57)"></p>
+                <p class="pixel" onclick="Colorir(58)"></p>
+                <p class="pixel" onclick="Colorir(59)"></p>
+                <p class="pixel" onclick="Colorir(60)"></p>
+                <p class="pixel" onclick="Colorir(61)"></p>
+                <p class="pixel" onclick="Colorir(62)"></p>
+                <p class="pixel" onclick="Colorir(63)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(64)"></p>
+                <p class="pixel" onclick="Colorir(65)"></p>
+                <p class="pixel" onclick="Colorir(66)"></p>
+                <p class="pixel" onclick="Colorir(67)"></p>
+                <p class="pixel" onclick="Colorir(68)"></p>
+                <p class="pixel" onclick="Colorir(69)"></p>
+                <p class="pixel" onclick="Colorir(70)"></p>
+                <p class="pixel" onclick="Colorir(71)"></p>
+                <p class="pixel" onclick="Colorir(72)"></p>
+                <p class="pixel" onclick="Colorir(73)"></p>
+                <p class="pixel" onclick="Colorir(74)"></p>
+                <p class="pixel" onclick="Colorir(75)"></p>
+                <p class="pixel" onclick="Colorir(76)"></p>
+                <p class="pixel" onclick="Colorir(77)"></p>
+                <p class="pixel" onclick="Colorir(78)"></p>
+                <p class="pixel" onclick="Colorir(79)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(80)"></p>
+                <p class="pixel" onclick="Colorir(81)"></p>
+                <p class="pixel" onclick="Colorir(82)"></p>
+                <p class="pixel" onclick="Colorir(83)"></p>
+                <p class="pixel" onclick="Colorir(84)"></p>
+                <p class="pixel" onclick="Colorir(85)"></p>
+                <p class="pixel" onclick="Colorir(86)"></p>
+                <p class="pixel" onclick="Colorir(87)"></p>
+                <p class="pixel" onclick="Colorir(88)"></p>
+                <p class="pixel" onclick="Colorir(89)"></p>
+                <p class="pixel" onclick="Colorir(90)"></p>
+                <p class="pixel" onclick="Colorir(91)"></p>
+                <p class="pixel" onclick="Colorir(92)"></p>
+                <p class="pixel" onclick="Colorir(93)"></p>
+                <p class="pixel" onclick="Colorir(94)"></p>
+                <p class="pixel" onclick="Colorir(95)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(96)"></p>
+                <p class="pixel" onclick="Colorir(97)"></p>
+                <p class="pixel" onclick="Colorir(98)"></p>
+                <p class="pixel" onclick="Colorir(99)"></p>
+                <p class="pixel" onclick="Colorir(100)"></p>
+                <p class="pixel" onclick="Colorir(101)"></p>
+                <p class="pixel" onclick="Colorir(102)"></p>
+                <p class="pixel" onclick="Colorir(103)"></p>
+                <p class="pixel" onclick="Colorir(104)"></p>
+                <p class="pixel" onclick="Colorir(105)"></p>
+                <p class="pixel" onclick="Colorir(106)"></p>
+                <p class="pixel" onclick="Colorir(107)"></p>
+                <p class="pixel" onclick="Colorir(108)"></p>
+                <p class="pixel" onclick="Colorir(109)"></p>
+                <p class="pixel" onclick="Colorir(110)"></p>
+                <p class="pixel" onclick="Colorir(111)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(112)"></p>
+                <p class="pixel" onclick="Colorir(113)"></p>
+                <p class="pixel" onclick="Colorir(114)"></p>
+                <p class="pixel" onclick="Colorir(115)"></p>
+                <p class="pixel" onclick="Colorir(116)"></p>
+                <p class="pixel" onclick="Colorir(117)"></p>
+                <p class="pixel" onclick="Colorir(118)"></p>
+                <p class="pixel" onclick="Colorir(119)"></p>
+                <p class="pixel" onclick="Colorir(120)"></p>
+                <p class="pixel" onclick="Colorir(121)"></p>
+                <p class="pixel" onclick="Colorir(122)"></p>
+                <p class="pixel" onclick="Colorir(123)"></p>
+                <p class="pixel" onclick="Colorir(124)"></p>
+                <p class="pixel" onclick="Colorir(125)"></p>
+                <p class="pixel" onclick="Colorir(126)"></p>
+                <p class="pixel" onclick="Colorir(127)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(128)"></p>
+                <p class="pixel" onclick="Colorir(129)"></p>
+                <p class="pixel" onclick="Colorir(130)"></p>
+                <p class="pixel" onclick="Colorir(131)"></p>
+                <p class="pixel" onclick="Colorir(132)"></p>
+                <p class="pixel" onclick="Colorir(133)"></p>
+                <p class="pixel" onclick="Colorir(134)"></p>
+                <p class="pixel" onclick="Colorir(135)"></p>
+                <p class="pixel" onclick="Colorir(136)"></p>
+                <p class="pixel" onclick="Colorir(137)"></p>
+                <p class="pixel" onclick="Colorir(138)"></p>
+                <p class="pixel" onclick="Colorir(139)"></p>
+                <p class="pixel" onclick="Colorir(140)"></p>
+                <p class="pixel" onclick="Colorir(141)"></p>
+                <p class="pixel" onclick="Colorir(142)"></p>
+                <p class="pixel" onclick="Colorir(143)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(144)"></p>
+                <p class="pixel" onclick="Colorir(145)"></p>
+                <p class="pixel" onclick="Colorir(146)"></p>
+                <p class="pixel" onclick="Colorir(147)"></p>
+                <p class="pixel" onclick="Colorir(148)"></p>
+                <p class="pixel" onclick="Colorir(149)"></p>
+                <p class="pixel" onclick="Colorir(150)"></p>
+                <p class="pixel" onclick="Colorir(151)"></p>
+                <p class="pixel" onclick="Colorir(152)"></p>
+                <p class="pixel" onclick="Colorir(153)"></p>
+                <p class="pixel" onclick="Colorir(154)"></p>
+                <p class="pixel" onclick="Colorir(155)"></p>
+                <p class="pixel" onclick="Colorir(156)"></p>
+                <p class="pixel" onclick="Colorir(157)"></p>
+                <p class="pixel" onclick="Colorir(158)"></p>
+                <p class="pixel" onclick="Colorir(159)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(160)"></p>
+                <p class="pixel" onclick="Colorir(161)"></p>
+                <p class="pixel" onclick="Colorir(162)"></p>
+                <p class="pixel" onclick="Colorir(163)"></p>
+                <p class="pixel" onclick="Colorir(164)"></p>
+                <p class="pixel" onclick="Colorir(165)"></p>
+                <p class="pixel" onclick="Colorir(166)"></p>
+                <p class="pixel" onclick="Colorir(167)"></p>
+                <p class="pixel" onclick="Colorir(168)"></p>
+                <p class="pixel" onclick="Colorir(169)"></p>
+                <p class="pixel" onclick="Colorir(170)"></p>
+                <p class="pixel" onclick="Colorir(171)"></p>
+                <p class="pixel" onclick="Colorir(172)"></p>
+                <p class="pixel" onclick="Colorir(173)"></p>
+                <p class="pixel" onclick="Colorir(174)"></p>
+                <p class="pixel" onclick="Colorir(175)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(176)"></p>
+                <p class="pixel" onclick="Colorir(177)"></p>
+                <p class="pixel" onclick="Colorir(178)"></p>
+                <p class="pixel" onclick="Colorir(179)"></p>
+                <p class="pixel" onclick="Colorir(180)"></p>
+                <p class="pixel" onclick="Colorir(181)"></p>
+                <p class="pixel" onclick="Colorir(182)"></p>
+                <p class="pixel" onclick="Colorir(183)"></p>
+                <p class="pixel" onclick="Colorir(184)"></p>
+                <p class="pixel" onclick="Colorir(185)"></p>
+                <p class="pixel" onclick="Colorir(186)"></p>
+                <p class="pixel" onclick="Colorir(187)"></p>
+                <p class="pixel" onclick="Colorir(188)"></p>
+                <p class="pixel" onclick="Colorir(189)"></p>
+                <p class="pixel" onclick="Colorir(190)"></p>
+                <p class="pixel" onclick="Colorir(191)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(192)"></p>
+                <p class="pixel" onclick="Colorir(193)"></p>
+                <p class="pixel" onclick="Colorir(194)"></p>
+                <p class="pixel" onclick="Colorir(195)"></p>
+                <p class="pixel" onclick="Colorir(196)"></p>
+                <p class="pixel" onclick="Colorir(197)"></p>
+                <p class="pixel" onclick="Colorir(198)"></p>
+                <p class="pixel" onclick="Colorir(199)"></p>
+                <p class="pixel" onclick="Colorir(200)"></p>
+                <p class="pixel" onclick="Colorir(201)"></p>
+                <p class="pixel" onclick="Colorir(202)"></p>
+                <p class="pixel" onclick="Colorir(203)"></p>
+                <p class="pixel" onclick="Colorir(204)"></p>
+                <p class="pixel" onclick="Colorir(205)"></p>
+                <p class="pixel" onclick="Colorir(206)"></p>
+                <p class="pixel" onclick="Colorir(207)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(208)"></p>
+                <p class="pixel" onclick="Colorir(209)"></p>
+                <p class="pixel" onclick="Colorir(210)"></p>
+                <p class="pixel" onclick="Colorir(211)"></p>
+                <p class="pixel" onclick="Colorir(212)"></p>
+                <p class="pixel" onclick="Colorir(213)"></p>
+                <p class="pixel" onclick="Colorir(214)"></p>
+                <p class="pixel" onclick="Colorir(215)"></p>
+                <p class="pixel" onclick="Colorir(216)"></p>
+                <p class="pixel" onclick="Colorir(217)"></p>
+                <p class="pixel" onclick="Colorir(218)"></p>
+                <p class="pixel" onclick="Colorir(219)"></p>
+                <p class="pixel" onclick="Colorir(220)"></p>
+                <p class="pixel" onclick="Colorir(221)"></p>
+                <p class="pixel" onclick="Colorir(222)"></p>
+                <p class="pixel" onclick="Colorir(223)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(224)"></p>
+                <p class="pixel" onclick="Colorir(225)"></p>
+                <p class="pixel" onclick="Colorir(226)"></p>
+                <p class="pixel" onclick="Colorir(227)"></p>
+                <p class="pixel" onclick="Colorir(228)"></p>
+                <p class="pixel" onclick="Colorir(229)"></p>
+                <p class="pixel" onclick="Colorir(230)"></p>
+                <p class="pixel" onclick="Colorir(231)"></p>
+                <p class="pixel" onclick="Colorir(232)"></p>
+                <p class="pixel" onclick="Colorir(233)"></p>
+                <p class="pixel" onclick="Colorir(234)"></p>
+                <p class="pixel" onclick="Colorir(235)"></p>
+                <p class="pixel" onclick="Colorir(236)"></p>
+                <p class="pixel" onclick="Colorir(237)"></p>
+                <p class="pixel" onclick="Colorir(238)"></p>
+                <p class="pixel" onclick="Colorir(239)"></p>
+            </div>
+
+            <div class="linha">
+                <p class="pixel" onclick="Colorir(240)"></p>
+                <p class="pixel" onclick="Colorir(241)"></p>
+                <p class="pixel" onclick="Colorir(242)"></p>
+                <p class="pixel" onclick="Colorir(243)"></p>
+                <p class="pixel" onclick="Colorir(244)"></p>
+                <p class="pixel" onclick="Colorir(245)"></p>
+                <p class="pixel" onclick="Colorir(246)"></p>
+                <p class="pixel" onclick="Colorir(247)"></p>
+                <p class="pixel" onclick="Colorir(248)"></p>
+                <p class="pixel" onclick="Colorir(249)"></p>
+                <p class="pixel" onclick="Colorir(250)"></p>
+                <p class="pixel" onclick="Colorir(251)"></p>
+                <p class="pixel" onclick="Colorir(252)"></p>
+                <p class="pixel" onclick="Colorir(253)"></p>
+                <p class="pixel" onclick="Colorir(254)"></p>
+                <p class="pixel" onclick="Colorir(255)"></p>
+            </div>
+        </div>
+        <div class="cor-atual">
+            <p>cor atual:</p>
+            <p id="atual"></p>
+            <p id="name">rgb(255,255,255)</p>
+        </div>
+        <div class="cor-personalizada">
+            <div class="rgb">
+                <label for="r">R:</label>
+                <input type="number" max="255" min="0" name="rname" id="r">
+                <label for="g">G:</label>
+                <input type="number" max="255" min="0" name="gname" id="g">
+                <label for="b">B:</label>
+                <input type="number" max="255" min="0" name="bname" id="b">
+                <span class="btn" onclick="rgb()">Criar Cor</span>
+            </div>
+        </div>
+        <div class="apagar">
+            <span class="btn" id="apagar-btn" onclick="Apagar()">Apagar quadro</span>
+        </div>
+    </main>
+
+    <footer>Desenvolvido por: <a href="https://github.com/Gabriel-Esposito">Gabriel de Abreu</a></footer>
+</body>
+</html>
