@@ -1,10 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: burlywood;
 }
-button {
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 4em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+}
+h1{
+    margin-bottom: 1em;
+    text-align: center;
+}
+h2{
+    margin-bottom: 2em;
+    text-align: center;
+}
+h3{
     width: 2em;
     height: 2em;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#b1{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#b2{
+    border-bottom: 4px solid black;;
+}
+#b3{
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#b4{
+    border-right: 4px solid black;
+}
+#b6{
+    border-left: 4px solid black;
+}
+#b7{
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+#b8{
+    border-top: 4px solid black;
+}
+#b9{
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+}
+.linha{
+    display: flex;
+}
+#blue{
+    color: rgb(0, 225, 255);
+}
+#red{
+    color: red;
+}
+#btn{
+    padding: 0.4em;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 68, 255);
 }

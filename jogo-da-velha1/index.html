@@ -10,21 +10,29 @@
 </head>
 
 <body>
+    <audio src="win.mp3"></audio>
     <main>
         <h1>JOGO DA VELHA</h1>
-        <hr>
-        <div class="game">
-            <button data-i="1"></button>
-            <button data-i="2"></button>
-            <button data-i="3"></button>
-            <button data-i="4"></button>
-            <button data-i="5"></button>
-            <button data-i="6"></button>
-            <button data-i="7"></button>
-            <button data-i="8"></button>
-            <button data-i="9"></button>
+        <h2 id="vez">Vez do jogador: <span id="red">X</span></h2>
+        <div class="container">
+            <div class="linha">
+                <h3 onclick="game(0)" id="b1"></h3>
+                <h3 onclick="game(1)" id="b2"></h3>
+                <h3 onclick="game(2)" id="b3"></h3>
+            </div>
+            <div class="linha">
+                <h3 onclick="game(3)" id="b4"></h3>
+                <h3 onclick="game(4)" id="b5"></h3>
+                <h3 onclick="game(5)" id="b6"></h3>
+            </div>
+            <div class="linha">
+                <h3 onclick="game(6)" id="b7"></h3>
+                <h3 onclick="game(7)" id="b8"></h3>
+                <h3 onclick="game(8)" id="b9"></h3>
+            </div>
         </div>
-        <h2 id="jogador"></h2>
+        <h2 id="win"></h2>
+        <p id="btn" onclick="iniciar()">Jogar</p>
     </main>
 </body>
 </html>
